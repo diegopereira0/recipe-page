@@ -18,36 +18,37 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <title>Simple Omelette Recipe</title>
   </head>
   <body>
-    <main>
-      <section> 
+    <main class="main-box container">
+      <section class="recipe-intro">
         <img
           src="./assets/img/image-omelette.jpeg"
           alt="An Omelette"
           width="1312"
           height="600"
         />
-        <h1>Simple Omelette</h1>
-        <p>
+        <h1 class="title-large stone-900">Simple Omelette</h1>
+        <p class="body-medium">
           Recipe An easy and quick dish, perfect for any meal. This classic
           omelette combines beaten eggs cooked to perfection, optionally filled
           with your choice of cheese, vegetables, or meats.
         </p>
       </section>
       <section>
-        <h3>Preparation time</h3>
-        <ul>
-          <li>Total: Approximately 10 minutes</li>
-          <li>Preparation: 5 minutes</li>
-          <li>Cooking: 5 minutes</li>
+        <h3 class="body-large rose-800">Preparation time</h3>
+        <ul class="body-medium">
+          <li><strong>Total:</strong> Approximately 10 minutes</li>
+          <li><strong>Preparation:</strong> 5 minutes</li>
+          <li><strong>Cooking:</strong> 5 minutes</li>
         </ul>
       </section>
-      <section>
-        <h2>Ingredients</h2>
-        <ul>
+      <section class="box_info ingredients">
+        <h2 class="title-medium brown-800">Ingredients</h2>
+        <ul class="ingredients-list body-medium">
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
@@ -58,9 +59,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Instructions</h2>
-        <ol>
+      <section class="box_info instructions">
+        <h2 class="title-medium brown-800">Instructions</h2>
+        <ol class="instructions-list body-medium">
           <li>
             <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
             pinch of salt and pepper until they are well mixed. You can add a
@@ -92,20 +93,22 @@
         </ol>
       </section>
 
-      <section>
-        <h2>Nutrition</h2>
-        <p>
+      <section class="box-info nutrition">
+        <h2 class="title-medium brown-800">Nutrition</h2>
+        <p class="body-medium">
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
-        <p>Calories</p>
-        <span>277kcal</span>
-        <p>Carbs</p>
-        <span> 0g </span>
-        <p>Protein</p>
-        <span> 20g</span>
-        <p>Fat</p>
-        <span>22g </span>
+        <div class="nutrition-table body-medium">
+          <p>Calories</p>
+          <span>277kcal</span>
+          <p>Carbs</p>
+          <span> 0g </span>
+          <p>Protein</p>
+          <span> 20g</span>
+          <p>Fat</p>
+          <span>22g </span>
+        </div>
       </section>
     </main>
   </body>

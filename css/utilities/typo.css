@@ -1,0 +1,37 @@
+.title-large {
+  font:
+    400 2.5rem/1 "Young Serif",
+    Georgia,
+    serif;
+}
+
+.title-medium {
+  font:
+    400 1.75rem/1 "Young Serif",
+    Georgia,
+    serif;
+}
+
+.body-large {
+  font:
+    600 1.25rem/1 "Montserrat",
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+.body-medium {
+  font:
+    500 1rem/1.5 "Montserrat",
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+.body-medium-bold {
+  font:
+    700 1rem/1.5 "Montserrat",
+    Arial,
+    Helvetica,
+    sans-serif;
+}
