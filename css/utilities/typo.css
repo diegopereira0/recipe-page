@@ -35,3 +35,9 @@
     Helvetica,
     sans-serif;
 }
+
+@media (max-width: 600px) {
+  .title-large {
+    font-size: 1.75rem;
+  }
+}
